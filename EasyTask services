@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EasyTask Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; margin:0; padding:0; line-height:1.6; background-color: #f4f6f8; color: #333;}
+    header { background-color: #2e8b57; color: white; padding: 20px 0; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; transition: 0.3s;}
+    nav a:hover { text-decoration: underline; }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto;}
+    h1, h2 { color: #2e8b57; }
+    .services { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .service { background: white; padding: 25px; flex: 1 1 calc(30% - 20px); border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; }
+    .service img { width: 60px; height: 60px; margin-bottom: 15px; }
+    footer { text-align: center; padding: 20px; background: #333; color: white;}
+    input, textarea { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;}
+    button { background-color: #2e8b57; color: white; border: none; padding: 12px 25px; cursor: pointer; border-radius: 5px; font-size: 16px;}
+    button:hover { background-color: #246b45; }
+    @media(max-width: 900px){ .service { flex: 1 1 45%; } }
+    @media(max-width: 600px){ .service { flex: 1 1 100%; } }
+    .hero { text-align:center; margin-bottom:50px; }
+    .hero img { max-width:150px; margin-bottom:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Iconic_task_check.svg" alt="Logo EasyTask Services">
+    <h1>EasyTask Services</h1>
+    <p>Aide personnalisée pour documents académiques et professionnels</p>
+  </div>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil">
+  <h2>Bienvenue chez EasyTask Services</h2>
+  <p>EasyTask Services est né au sein de la Faculté des Lettres et Langues de l’Université de Poitiers. Nous aidons étudiants et jeunes actifs à produire des documents académiques et professionnels de qualité, de manière personnalisée et abordable.</p>
+</section>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <div class="services">
+    <div class="service">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/CV_icon.svg" alt="CV">
+      <h3>Création et optimisation de CV</h3>
+      <p>CV adaptés à vos candidatures pour maximiser vos chances.</p>
+    </div>
+    <div class="service">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Letter_icon.svg" alt="Lettre">
+      <h3>Lettre de motivation</h3>
+      <p>Rédaction sur-mesure pour chaque candidature.</p>
+    </div>
+    <div class="service">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Proofreading_icon.svg" alt="Corrections">
+      <h3>Corrections et relectures</h3>
+      <p>Documents impeccables et professionnels.</p>
+    </div>
+    <div class="service">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Homework_icon.svg" alt="Aide devoirs">
+      <h3>Aide aux devoirs</h3>
+      <p>Accompagnement académique personnalisé.</p>
+    </div>
+    <div class="service">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Translation_icon.svg" alt="Traduction">
+      <h3>Traductions Français ↔ Anglais</h3>
+      <p>Traductions précises et adaptées au contexte.</p>
+    </div>
+    <div class="service">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Layout_icon.svg" alt="Mise en page">
+      <h3>Mise en page professionnelle</h3>
+      <p>Documents structurés et esthétiques.</p>
+    </div>
+  </div>
+</section>
+
+<section id="apropos">
+  <h2>À propos de nous</h2>
+  <p>EasyTask Services a été créé pour répondre à un besoin réel : proposer une aide personnalisée, professionnelle et abordable pour tous ceux qui souhaitent améliorer leurs documents académiques et professionnels.</p>
+</section>
+
+<section id="contact">
+  <h2>Contactez-nous</h2>
+  <form>
+    <input type="text" placeholder="Votre nom" required>
+    <input type="email" placeholder="Votre email" required>
+    <textarea placeholder="Votre message" rows="5" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 EasyTask Services. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
